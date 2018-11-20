@@ -1,0 +1,139 @@
+/* For all pages */
+body{
+	background-color: cyan;
+	background-image: url("back1.jpg");
+	color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+li a.active {
+    color: white;
+    background-color: #161616;
+}
+
+#contact {
+	float: right;
+}
+
+/* for "home.html" only */
+#homep {
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	padding: 200px 0px;
+}
+
+
+
+/* For "profile.html" only */
+.profiles {
+	margin-left: 20px;
+}
+.profiles a{
+	background-color: gray;
+	padding-left: 25px;
+	padding-right: 100px;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 70px;
+	border-left-width: 10px;
+	border-left-style: solid;
+}
+#fb {
+	border-left-color: darkblue;
+}
+#twtr {
+	border-left-color: deepskyblue;
+}
+#gthb {
+	border-left-color: red;
+}
+#lnkdn {
+	border-left-color: greenyellow;
+}
+
+.profiles a:link, a:visited {
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.profiles a:hover, a:active {
+    background-color: black;
+    color: white;
+}
+#dhora a:hover, a:active {
+    border-left-width: 25px;
+}
+
+
+/* for "gallery.html" only */
+.gallery img {
+	width: 30%;
+	height: 20%;
+	filter: blur(5px);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+.gallery img:hover{
+	width: 33%;
+	height: 25%;
+	filter: initial;
+	transition: .5s;
+}
+
+/* for "about.html" only */
+#p1{
+	font-size: 20px;
+	margin-right: 200px;
+}
+#p2 , #p3{
+	text-align: center;
+	font-size: 30px;
+}
+#propic {
+	height: 15%;
+	width: 15%;
+	float: right;
+}
+
+/* for "education.html" only */
+.education {
+	margin-left: 10px;
+	font-size: 20px;
+}
+
+.edub {
+	margin-left: -10px;
+	font-size: 25px;
+	color: greenyellow;
+}
+
+/* for "contact.html" only */
+#p3 {
+	padding-top: 50px;
+}
